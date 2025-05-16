@@ -31,6 +31,7 @@ header{
 .navbar nav{
     display: flex;
     align-items: center;
+    padding:1.5rem 0;
 }
 .navbar nav li{
     list-style: none;
@@ -42,13 +43,17 @@ header{
     font-size: 1.1rem;
     padding: 0.7rem 0.6rem;
     border-radius: 6px;
-    FINISHED AT 5:02 video
+    transition: all 0.4s ease-in;
 }
 
+.navbar nav li a:hover{
+  background:purple
+  color: white
+}
+VIDEO 7:03 
 
 body {
-    background-image: url("imgs/rangers.jpg");
-    background-size: cover;
+   
     background-position: center;
     font-family: "Gill Sans", sans serif;
     background-repeat: no-repeat;
