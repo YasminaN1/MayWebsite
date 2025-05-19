@@ -8,7 +8,7 @@
 }
 header{
     background: rgb(122, 188, 231);
-
+    position: relative;
 }
 .container{
     max-width: 1440px;
@@ -50,9 +50,73 @@ header{
   background:purple
   color: white
 }
-VIDEO 7:03 
 
-body {
+section video{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%
+  height: 100%
+  object-fit: cover;
+  z-index:-1
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  height: 90vh;
+}
+.content h2{
+  font-size: 4.5rem
+  color:#fff
+  font-family:"ubuntu", sans-serif;
+}
+.content p{
+  color:#fff
+  line-height: 2;
+  margin-top: 1rem;
+}
+
+.content button{
+  display: block;
+  margin: 2rem 0;
+  width: 21%
+  padding: 0.7rem 0;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 4px solidcolor;
+  border: 1px solid #fff;
+  background: inherit;
+  color:#fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.content button:hover,i:hover{
+  background: skyblue;
+}
+
+.content .social_icons{
+display: flex;
+justify-content: space-between;
+width: 50% 
+cursor: pointer;
+margin-top:2rem;
+font-size:1.9rem;
+}
+
+.content .social_icons i{
+padding: 0.6rem;
+color:white
+border-radius:5px;
+border: 1px solid #ddd;
+transition: all 0.5s ease-in-out
+}
+
+
+
+/* body {
    
     background-position: center;
     font-family: "Gill Sans", sans serif;
@@ -88,4 +152,4 @@ body {
     color: aliceblue;
   }
   
- 
+  */
