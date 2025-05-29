@@ -4,12 +4,19 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
-    font-family: "poppins";
-}
-header{
-    background: rgb(122, 188, 231);
+    font-family: "lust-sans", sans-serif;
+font-weight: 400;
+font-style: normal;}
 
+.roster body{
+  background-color: blue;
 }
+
+header{
+    background: rgb(1, 5, 71);
+    position: relative;
+}
+
 .container{
     max-width: 1440px;
     padding: 0 50px;
@@ -19,7 +26,6 @@ header{
 .logo img{
     display: block;
     object-fit: cover;
-    width: 30%
     height: 90px;
     width: 90px;
 }
@@ -31,15 +37,15 @@ header{
 .navbar nav{
     display: flex;
     align-items: center;
-    padding:1.5rem 0;
+    padding:1.1rem 0;
 }
 .navbar nav li{
     list-style: none;
-    margin-left: 1rem;
+    margin-left:30px;
 }
 .navbar nav li a{
     text-decoration: none;
-    color: white
+    color: white;
     font-size: 1.1rem;
     padding: 0.7rem 0.6rem;
     border-radius: 6px;
@@ -47,45 +53,96 @@ header{
 }
 
 .navbar nav li a:hover{
-  background:purple
-  color: white
+  background:rgb(243, 5, 5);
+  color: white;
 }
-VIDEO 7:03 
 
-body {
-   
-    background-position: center;
-    font-family: "Gill Sans", sans serif;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+section video{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index:-1;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  height: 90vh;
+}
+.content h2{
+  font-size: 4.5rem;
+  color:#fff;
+  font-family: "liebegerda", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+.content p{
+  color:#fff;
+  line-height: 2;
+  margin-top: 1rem;
+}
+
+.content button{
+  display: block;
+  margin: 2rem 0;
+  width: 21%;
+  padding: 0.7rem 0;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 4px solidcolor;
+  border: 1px solid #fff;
+  background: inherit;
+  color:#fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.content button:hover,i:hover{
+  background: skyblue;
+}
+
+.content .social_icons{
+display: flex;
+justify-content: space-between;
+width: 50% ;
+cursor: pointer;
+margin-top:2rem;
+font-size:1.9rem;
+}
+
+.content .social_icons i{
+padding: 0.6rem;
+color:white;
+border-radius:5px;
+border: 1px solid #ddd;
+transition: all 0.5s ease-in-out;
+}
+
+.navbar .btn{
+  font-size:1.2rem;
+  color: #fff;
+  align-items:center;
+  cursor:pointer;
+  display:none;
+}
+
+@media(max-width:1058px){
+  .container{
+    padding: 0 25px;
   }
-  main {
-    padding-top: 50px;
-  }
-  
-  h1 {
-    font-family: "the-seasons", sans-serif !important;
-    font-weight: 700;
-    font-size: 98px;
-    font-style: italic;
-    color: aliceblue;
-  }
-  h2 {
-    font-family: "the-seasons", sans-serif !important;
-    font-weight: 700;
-    font-style: italic;
-  }
-  p {
-    font-family: "the-seasons", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: aliceblue;
-  }
-  h5 {
-    font-family: "the-seasons", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: aliceblue;
-  }
-  
- 
+.content h2{
+  font-size: 4rem;
+}
+
+.navbar nav li a{
+  font-size: 1.1rem;
+}
+}
+
+{
+  margin-top: 90px;
+}
