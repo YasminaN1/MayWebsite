@@ -1,11 +1,20 @@
 const players = [
     {
+        firstName: 'Arthur',
+        lastName: 'Kaliyev',
+        position: 'Forward',
+        age: '24',
+        photo: 'imgs/ArthurK.png',
+        funFact: 'Kaliyev was born in Tashkent, Uzbekistan and is my moms friends son!'
+    },
+
+    {
         firstName: 'Brett',
         lastName: 'Berard',
         position: 'Left Wing',
         age: '23',
         photo: 'imgs/BrettB.png',
-        funFact: 'Loves fishing in the off-season.'
+        funFact: 'He was the second youngest member of the 2021 team (to Matty Beniers) when they won the gold medal in 2021'
     },
 
     {
@@ -13,7 +22,8 @@ const players = [
         lastName: 'Brodzinski',
         position: 'Center',
         age: '32',
-        photo: 'imgs/JonnyB.png'
+        photo: 'imgs/JonnyB.png',
+        funFact: 'Jonny excelled in golf, earning All-Conference honors and being named Blaine High Schools Rookie of the Year. '
     },
 
     {
@@ -21,7 +31,8 @@ const players = [
         lastName: 'Carrick',
         position: 'Center',
         age: '32',
-        photo: 'imgs/SamC.png'
+        photo: 'imgs/SamC.png',
+        funFact: 'Sam and his brothers, Jake and Josh, are involved in a family business called Carrick Bros., which produces and sells maple syrup'
     },
 
     {
@@ -29,7 +40,8 @@ const players = [
         lastName: 'Cuylle',
         position: 'Left Wing',
         age: '23',
-        photo: 'imgs/WillC.png'
+        photo: 'imgs/WillC.png',
+        funFact: 'He enjoys reading, playing Scrabble, and collecting LEGOs and Star Wars merchandise'
     },
 
     {
@@ -37,23 +49,18 @@ const players = [
         lastName: 'Edstrom',
         position: 'Center',
         age: '25',
-        photo: 'imgs/AdamE.png'
+        photo: 'imgs/AdamE.png',
+        funFact: 'He began playing for Mora IKs under-18 team at age 16 and made his SHL debut by 18. '
     },
 
-    {
-        firstName: 'Arthur',
-        lastName: 'Kaliyev',
-        position: 'Forward',
-        age: '24',
-        photo: 'imgs/ArthurK.png'
-    },
 
     {
         firstName: 'Chris',
         lastName: 'Kreider',
         position: 'Left Wing',
         age: '34',
-        photo: 'imgs/ChrisK.png'
+        photo: 'imgs/ChrisK.png',
+        funFact: 'Kreider recently passed 300 career goals, becoming only the third player in Rangers history to reach that milestone. '
     },
 
     {
@@ -61,7 +68,8 @@ const players = [
         lastName: 'Lafreniere',
         position: 'Left Wing',
         age: '24',
-        photo: 'imgs/AlexisL.png'
+        photo: 'imgs/AlexisL.png',
+        funFact: 'Lafrenières love for hockey began at a young age. His father, Hugo, recalls him being more interested in playing hockey than playing with toys. '
     },
 
     {
@@ -69,7 +77,8 @@ const players = [
         lastName: 'Miller',
         position: 'Left Wing',
         age: '32',
-        photo: 'imgs/J.T.M.png'
+        photo: 'imgs/J.T.M.png',
+        funFact: 'He has played for the Tampa Bay Lightning, Vancouver Canucks'
     },
 
     {
@@ -77,7 +86,8 @@ const players = [
         lastName: 'Othman',
         position: 'Left Wing',
         age: '22',
-        photo: 'imgs/BrennanO.png'
+        photo: 'imgs/BrennanO.png',
+        funFact: 'Othmann is a Swiss-Canadian citizen, and has represented Canada internationally. '
     },
 
     {
@@ -85,7 +95,8 @@ const players = [
         lastName: 'Panarin',
         position: 'Left Wing',
         age: '34',
-        photo: 'imgs/ArtemiP.png'
+        photo: 'imgs/ArtemiP.png',
+        funFact: 'Panarin was adopted by his grandparents at three months old when his parents divorced, and he was raised in Korkino, a Russian mining town.  '
     },
 
     {
@@ -93,7 +104,8 @@ const players = [
         lastName: 'Parssinen',
         position: 'Center',
         age: '24',
-        photo: 'imgs/JuusoP.png'
+        photo: 'imgs/JuusoP.png',
+        funFact: 'He has represented Finland at the World Junior Championships and has also scored the "biggest goal" of his career in an overtime thriller at the World Championship.  '
     },
 
     {
@@ -101,7 +113,8 @@ const players = [
         lastName: 'Perreault',
         position: 'Right Wing',
         age: '20',
-        photo: 'imgs/GabeP.png'
+        photo: 'imgs/GabeP.png',
+        funFact: 'Perreault is the son of former NHL player Yanic Perreault, who played for 14 seasons in the league.'
     },
 
     {
@@ -109,7 +122,8 @@ const players = [
         lastName: 'Rempe',
         position: 'Center',
         age: '23',
-        photo: 'imgs/MattR.png'
+        photo: 'imgs/MattR.png',
+        funFact: 'Rempe is known for his high penalty minutes, especially in his first season. For example, he had 101 penalty minutes in 51 games as a rookie. '
     },
 
     {
@@ -117,7 +131,8 @@ const players = [
         lastName: 'Trocheck',
         position: 'Center',
         age: '32',
-        photo: 'imgs/VincentT.png'
+        photo: 'imgs/VincentT.png',
+        funFact: 'Trocheck has been nicknamed "Mr. Clutch" for his ability to deliver in crucial playoff situations, often scoring big goals and winning face-offs.'
     },
 
     {
@@ -125,7 +140,8 @@ const players = [
         lastName: 'Zibanejad',
         position: 'Center',
         age: '32',
-        photo: 'imgs/MikaZ.png'
+        photo: 'imgs/MikaZ.png',
+        funFact: 'He is a DJ and music producer, with some of his tracks even being played by DJ Tiesto.'
     },
 
     {
@@ -133,7 +149,8 @@ const players = [
         lastName: 'Borgen',
         position: 'Defenseman',
         age: '28',
-        photo: 'imgs/WillB.png'
+        photo: 'imgs/WillB.png',
+        funFact: ''
     },
 
     {
@@ -141,7 +158,8 @@ const players = [
         lastName: 'De Haan',
         position: 'Defenseman',
         age: '34',
-        photo: 'imgs/CalvinD.H..png'
+        photo: 'imgs/CalvinD.H..png',
+        funFact: ''
     },
 
     {
@@ -149,7 +167,8 @@ const players = [
         lastName: 'Fox',
         position: 'Defenseman',
         age: '27',
-        photo: 'imgs/AdamF.png'
+        photo: 'imgs/AdamF.png',
+        funFact: ''
     },
 
     {
@@ -157,7 +176,8 @@ const players = [
         lastName: 'Jones',
         position: 'Defenseman',
         age: '24',
-        photo: 'imgs/ZacJ.png'
+        photo: 'imgs/ZacJ.png',
+        funFact: ''
     },
 
     {
@@ -165,7 +185,8 @@ const players = [
         lastName: 'Miller',
         position: 'Defenseman',
         age: '25',
-        photo: 'imgs/KAndreM.png'
+        photo: 'imgs/KAndreM.png',
+        funFact: ''
     },
 
     {
@@ -173,7 +194,8 @@ const players = [
         lastName: 'Schneider',
         position: 'Defenseman',
         age: '23',
-        photo: 'imgs/BradenS.png'
+        photo: 'imgs/BradenS.png',
+        funFact: ''
     },
 
     {
@@ -181,7 +203,8 @@ const players = [
         lastName: 'Soucy',
         position: 'Defenseman',
         age: '30',
-        photo: 'imgs/CarsonS.png'
+        photo: 'imgs/CarsonS.png',
+        funFact: ''
     },
 
     {
@@ -189,7 +212,8 @@ const players = [
         lastName: 'Vaakanienen',
         position: 'Defenseman',
         age: '26',
-        photo: 'imgs/UrhoV.png'
+        photo: 'imgs/UrhoV.png',
+        funFact: ''
     },
 
     {
@@ -197,7 +221,8 @@ const players = [
         lastName: 'Quick',
         position: 'Goaltender',
         age: '39',
-        photo: 'imgs/JonathanQ.png'
+        photo: 'imgs/JonathanQ.png',
+        funFact: ''
     },
 
     {
@@ -205,6 +230,7 @@ const players = [
         lastName: 'Shesterkin',
         position: 'Goaltender',
         age: '29',
-        photo: 'imgs/IgorS.png'
+        photo: 'imgs/IgorS.png',
+        funFact: ''
     },
 ]
