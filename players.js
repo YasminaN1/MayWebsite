@@ -4,7 +4,8 @@ const players = [
         lastName: 'Berard',
         position: 'Left Wing',
         age: '23',
-        photo: 'imgs/BrettB.png'
+        photo: 'imgs/BrettB.png',
+        funFact: 'Loves fishing in the off-season.'
     },
 
     {
