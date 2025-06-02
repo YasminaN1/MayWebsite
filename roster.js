@@ -24,34 +24,46 @@ document.addEventListener("DOMContentLoaded", () => {
 
     render(players);
 
-    // Click listener for modal buttons
-    document.addEventListener('click', event => {
-        if (event.target.matches('button[data-player]')) {
-            const playerKey = event.target.getAttribute('data-player');
-            const player = players.find(p => `${p.firstName}${p.lastName}` === playerKey);
+   // When anything is clicked on the page, run this function
+document.addEventListener('click', event => {
 
-            if (player) {
-                showModal(player);
-            }
+    // Check if the thing clicked is a button with a "data-player" attribute
+    if (event.target.matches('button[data-player]')) {
+
+        // Get the value of "data-player" from the button (like "JohnSmith")
+        const playerKey = event.target.getAttribute('data-player');
+
+        // Find the player in the list whose name matches the button value
+        const player = players.find(p => `${p.firstName}${p.lastName}` === playerKey);
+
+        // If we found a player, show their info in a pop-up
+        if (player) {
+            showModal(player);
         }
-    });
-
-    // Show modal function
-    function showModal(player) {
-        const modalTitle = document.getElementById('playerModalLabel');
-        const modalBody = document.getElementById('playerModalBody');
-
-        modalTitle.textContent = `${player.firstName} ${player.lastName}`;
-        modalBody.innerHTML = `
-            <p><strong>🏒 Fun Fact:</strong> ${getFunFact(player)}</p>
-        `;
-
-        const modal = new bootstrap.Modal(document.getElementById('playerModal'));
-        modal.show();
     }
+});
 
-    // Get fun fact (fallback if missing)
-    function getFunFact(player) {
-        return player.funFact || 'No fun facts available.';
-    }
+   // This function shows a pop-up with player info
+function showModal(player) {
+    // Get the title part of the pop-up
+    const modalTitle = document.getElementById('playerModalLabel');
+
+    // Get the body part of the pop-up
+    const modalBody = document.getElementById('playerModalBody');
+
+    // Set the title to the player's full name
+    modalTitle.textContent = `${player.firstName} ${player.lastName}`;
+
+    // Add a fun fact to the body of the pop-up
+    modalBody.innerHTML = `
+        <p><strong>🏒 Fun Fact:</strong> ${getFunFact(player)}</p>
+    `;
+
+    // Find the pop-up box
+    const modal = new bootstrap.Modal(document.getElementById('playerModal'));
+
+    // Show the pop-up box
+    modal.show();
+}
+
 });

@@ -150,7 +150,7 @@ const players = [
         position: 'Defenseman',
         age: '28',
         photo: 'imgs/WillB.png',
-        funFact: ''
+        funFact: 'He experienced his first NHL playoff run with the Seattle Kraken, which he called the most fun hes had playing hockey.'
     },
 
     {
@@ -159,7 +159,7 @@ const players = [
         position: 'Defenseman',
         age: '34',
         photo: 'imgs/CalvinD.H..png',
-        funFact: ''
+        funFact: 'De Haan co-owns a restaurant and brewery called Ridge Rock Brewing Company in his hometown of Carp, Ontario.'
     },
 
     {
@@ -168,7 +168,7 @@ const players = [
         position: 'Defenseman',
         age: '27',
         photo: 'imgs/AdamF.png',
-        funFact: ''
+        funFact: 'While at Harvard, Fox was named an Academic All-Ivy honoree.'
     },
 
     {
@@ -177,7 +177,7 @@ const players = [
         position: 'Defenseman',
         age: '24',
         photo: 'imgs/ZacJ.png',
-        funFact: ''
+        funFact: 'He expressed frustration with his limited role, even saying he felt like he was "rotting away" with the Rangers.'
     },
 
     {
@@ -186,7 +186,7 @@ const players = [
         position: 'Defenseman',
         age: '25',
         photo: 'imgs/KAndreM.png',
-        funFact: ''
+        funFact: 'Miller began modeling at age seven, appearing in Target print campaigns and a Honda commercial.'
     },
 
     {
@@ -195,7 +195,7 @@ const players = [
         position: 'Defenseman',
         age: '23',
         photo: 'imgs/BradenS.png',
-        funFact: ''
+        funFact: 'He is known for his recovery routine, which includes warm/cold tub treatments and ensuring he gets enough rest .'
     },
 
     {
@@ -204,7 +204,7 @@ const players = [
         position: 'Defenseman',
         age: '30',
         photo: 'imgs/CarsonS.png',
-        funFact: ''
+        funFact: 'Soucy has been quoted as saying he was "not very big" when he was younger and didnt hit his growth spurt until he was about 16. '
     },
 
     {
@@ -213,7 +213,7 @@ const players = [
         position: 'Defenseman',
         age: '26',
         photo: 'imgs/UrhoV.png',
-        funFact: ''
+        funFact: 'Playing Style: Vaakanainen is known for his strong skating abilities and his ability to make smart, cautious plays with the puck.'
     },
 
     {
@@ -222,7 +222,7 @@ const players = [
         position: 'Goaltender',
         age: '39',
         photo: 'imgs/JonathanQ.png',
-        funFact: ''
+        funFact: 'Quick is a three-time Stanley Cup champion, a Conn Smythe Trophy winner.'
     },
 
     {
@@ -231,6 +231,6 @@ const players = [
         position: 'Goaltender',
         age: '29',
         photo: 'imgs/IgorS.png',
-        funFact: ''
+        funFact: 'Shesterkin enjoys a lavish lifestyle and isnt ruling out owning exotic cars and luxurious homes.'
     },
 ]
